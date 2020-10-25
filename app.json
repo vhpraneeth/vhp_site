@@ -1,0 +1,9 @@
+{
+  "name": "hello-flask-heroku",
+  "description": "A hello world app in Flask for deploying to Heroku.",
+  "keywords": ["flask", "heroku"],
+  "buildpacks": [
+    {"url": "https://github.com/heroku/heroku-buildpack-python"},
+    {"url": "https://github.com/velizarn/heroku-buildpack-nano"}
+  ]
+}
